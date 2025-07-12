@@ -4122,10 +4122,13 @@ body::after {
     top: 100%;
     left: 50%;
     height: auto;
-    max-height: 30.625rem;
+    max-height: 31.25rem;
     font-size: .875rem;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%)
+  }
+  .header--show .mega-menu {
+    top: 100%!important
   }
   .mega-menu__close {
     display: none
@@ -4926,7 +4929,9 @@ body::after {
     display: none
   }
   .mega-menu__content {
-    grid-template: auto 1fr/1fr auto
+    grid-template: auto 1fr/1fr auto;
+    -webkit-padding-after: 4.375rem;
+    padding-block-end: 4.375rem
   }
   .mega-menu__image {
     max-width: 14.6875rem
