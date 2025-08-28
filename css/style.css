@@ -1816,6 +1816,8 @@ body::after {
   display: none!important
 }
 .select__title {
+  -webkit-padding-end: 1.5625rem;
+  padding-inline-end: 1.5625rem;
   padding-block: .625rem;
   text-align: start;
   transition: color .3s;
